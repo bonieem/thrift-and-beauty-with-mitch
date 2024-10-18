@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</header>
+    <title>Thrift & Beauty with Mitch</title>
+        <input type="text" id="search" placeholder="Search fashion items..." onkeyup="searchItems()">
+</header>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+        <h1>THRIFT & BEAUTY WITH MITCH </h1>
+      <nav>
+            <ul class=".nav-links"
+               <li><a href="#about">About</a></li>
+            </li><a href="#collection">collection</a></li>
+        </li><a href="#contact">Contact</a></li>
+    </ul> <!DOCTYPE html>
+    <html lang="en">
+    <head>
+</nav>
+</header>
+<main>
+ <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Thrift & Beauty with Mitch!<br> We offer a curated selection of thrifted treasures,<br> stylish ladies' fashion, exquisite jewelry, and delightful fragrances—all at great prices.<br> Join us in embracing sustainability while enjoying unique finds.</p>
+    </section>
+        <section id="collection">
+        <h2>Shop Our Collection</h2>
+        <div id="CollectionSelector" onchange="changeCollection()">
+            <button onclick="filterCollection('Ladies')">Ladies</button>
+            <button onclick="filterCollection('Men')">Men</button>
+            <button onclick="filterCollection('jewellery')">Jewellery</button>
+            <button onclick="filterCollection('Handbags')">Handbags</button>
+            <button onclick="filterCollection('all')">Shoes & Sandals</button>
+        </div>
+    </head>
+    <body>
+        <h2>Collection</h2>
+        <select id="collectionSelector" onchange="changeCollection()">
+            <option value="Ladies Collection">Ladies Collection </option>
+            <option value="collection2">Men Collection </option>
+            <option value="collection3">Jewellery </option>
+            <option value="Shoes & Sandals">Shoes & Sandals</option>
+            <option value="collection5">Handbags</option>
+        </select>
+    
+        <div class="slideshow-container">
+            <div class="mySlides fade" data-collection="Ladies Collection">
+                <img src="IMAGES/0a8742bf3acf85ca8bc594444fbbfa90.jpg" style="width:40%">
+            </div>
+            <div class="mySlides fade" data-collection="Ladies Collection">
+                <img src="IMAGES/0ac8c7cc0c6db353fe79f71c9b142d5e.jpg" style="width:40%">
+            </div>
+            <div class="mySlides fade" data-collection="Ladies Collection">
+                <img src="IMAGES/94cc6dc8339faf10a5d396982d0503bf.jpg" style="width:40%">
+            </div>
+            <div class="mySlides fade" data-collection="collection2">
+                <img src="collection2/image1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade" data-collection="collection2">
+                <img src="collection2/image2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade" data-collection="collection2">
+                <img src="collection2/image3.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade" data-collection="Shoes & Sandals">
+                <img src="IMAGES/3224f834b2539aa3164f326f881e1de5.jpg" style="width:40%">
+            </div>
+            <div class="mySlides fade" data-collection="Shoes & Sandals">
+                <img src="IMAGES/03b9ef67aa72246f3f65003bdb70082d.jpg" style="width:40%">
+            </div>
+            <div class="mySlides fade" data-collection="Shoes & Sandals">
+                <img src="IMAGES/00c36c92201a5c292e153ca400f30c81.jpg" style="width:40%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
+ <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="happygalmitch@gmail.com" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+<footer>
+        <p>&copy; 2024 Thrift & Beauty with Mitch. All rights reserved.</p>
+    </footer>
+</body>
+</html>
